@@ -1,3 +1,5 @@
+# How many distinct numbers in Array
+
 # Given an array A consisting of N integers, returns the number of distinct values in array A.
 # A = [2,1,1,2,3,1] -> should return 3 because we have 3 different numbers
 
