@@ -36,7 +36,7 @@ def solution(X,A):
 
 # Testing
 from numpy import random
-A=random.randint(30001, size=(100_000))
+A = random.randint(30001, size=(100_000))
 A = [1,1,1,1,1,1,1,2,1]
 A = [2, 2, 2, 2, 2]
 A = [1,3,1,4,2,3,5,4]
