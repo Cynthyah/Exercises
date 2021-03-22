@@ -13,9 +13,8 @@
 # each element of array A is an integer within the range [1..1,000,000,000];
 # all but one of the values in A occur an even number of times.
 
-from collections import Counter
 def solution(A):
-    A = sorted(A) # instead of using count use Counter(create a dict with number of occurences)
+    A = sorted(A) 
     current = A[0]
     count = 0
     for i in A:
